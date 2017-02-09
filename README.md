@@ -32,10 +32,9 @@ It contains three components
 
 ##RESTful service for POSTing JSON data
 
+![Alt text](https://cloud.githubusercontent.com/assets/25563324/22806452/139cfe78-ef1a-11e6-984c-6f2bdde5e633.png "POST_end_point")
 
 https://currencyrestservice.eu-gb.mybluemix.net/currency
-
-
 
 
 Have used the Java Spring to provide the REST service to POST the currency data.
@@ -45,6 +44,8 @@ The received currency data is pushed into ActiveMQ . This is done to ensure reli
 
 
 ##Currency Report Application
+
+![Alt text](https://cloud.githubusercontent.com/assets/25563324/22806453/13b3368e-ef1a-11e6-815a-5d3efeec074b.png "Currency_report")
 
 https://currencyreportapp.eu-gb.mybluemix.net/currencyReport
 
@@ -85,9 +86,13 @@ https://github.com/chaithra-krishna/currencyReport
 - A short program/script also used to generate random values for these parameters for testing purposes.
 
 	Sample data:
+	
 	Url: https://currencyrestservice.eu-gb.mybluemix.net/currency
+	
 	Header : ContentType : application/json
+	
 	Input/payload : 
+	
 {
 	"userId": "134256",
 	"currencyFrom": "tterersdsft",
@@ -98,7 +103,9 @@ https://github.com/chaithra-krishna/currencyReport
 	"timePlaced": "24-JAN-15 10:27:44",
 	"originatingCountry": "FR"
 }
+
 Success message : Currency data added successfully
+
 Status Code : 200 OK
 
 Now the chart and data in the browser get updated with live data.
