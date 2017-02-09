@@ -103,6 +103,7 @@ Status Code : 200 OK
 
 Now the chart and data in the browser get updated with live data.
 
+![Alt text](https://cloud.githubusercontent.com/assets/25563324/22806310/67c1ccc8-ef19-11e6-97dc-af9ab7199ad3.png "Chart")
 
 
  
