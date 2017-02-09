@@ -61,6 +61,7 @@ There are two end points in this project
 ###RESTful service for POSTing JSON data
 
 REST endpoint to POST json data - set ContentType as application/json in header
+
 https://currencyrestservice.eu-gb.mybluemix.net/currency
 
 ###Currency Report Application 
